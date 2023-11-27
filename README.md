@@ -49,6 +49,10 @@ python run.py [options]
 ```
 ## Installation
 
+## Sample Output
+![image](https://github.com/vclabs/Deepfake/assets/141710657/6166d17a-6958-401e-a37b-f069d06cbda5)
+
+
 ## License
 
 This project is licensed under the MIT License. Feel free to use and modify the code as needed.
