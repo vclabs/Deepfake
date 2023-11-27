@@ -64,4 +64,5 @@ This project is licensed under the MIT License. Feel free to use and modify the 
 
 Thank you for using the DeepFake Face Swapping Project! If you have any questions or feedback, please don't hesitate to reach out.
 
-Disclaimer: Be aware of the ethical considerations and legal implications associated with deepfake technology. Ensure that you have the right to use the images and videos in your datasets, and use the technology responsibly.
+## Disclaimer 
+Be aware of the ethical considerations and legal implications associated with deepfake technology. Ensure that you have the right to use the images and videos in your datasets, and use the technology responsibly.
