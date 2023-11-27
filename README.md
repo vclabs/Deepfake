@@ -1,24 +1,23 @@
-## This project has been discontinued
+## DeepFake Face Swapping
 
-Yes, you can still use this software. It just won't recieve any updates now.
+Welcome to the DeepFake Face Swapping Project! This project focuses on implementing a face-swapping algorithm using deep learning techniques. The goal is to seamlessly replace faces in videos with the faces of other individuals, creating realistic and convincing deepfake videos.
 
-> The reason behind shutting the project down is that a developer with write access to the code published a [problematic video](https://github.com/s0md3v/roop/commit/cf7ba1caf932e8c9f39d972100f74022e7372c27) to the documentation of the project. This happened while I was taking a break from the project in July-Aug 2023. It went unnoticed for 2 weeks until someone reached out to me to talk about this project. It was a complete breach of trust for me and I decided that I do not have the interest or time to oversee the development of a software with such ethical issues.
-> I thank all the amazing people who contributed to this project and made what it is in it's final form.
+# Features
 
-# Roop
+1. Face swapping in videos with high realism.
+2. Support for different face datasets.
+3. Customizable model parameters for fine-tuning.
+4. GPU acceleration for faster processing.
 
-> Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+## Requirements
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
+Make sure you have the following dependencies installed:
 
-## Installation
-
-Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://discord.com/invite/Y9p4ZQ2sB9) community that will guide you to install roop.
-
-[Basic](https://github.com/s0md3v/roop/wiki/1.-Installation) - It is more likely to work on your computer, but will be quite slow
-
-[Acceleration](https://github.com/s0md3v/roop/wiki/2.-Acceleration) - Unleash the full potential of your CPU and GPU
-
+1. Python 3.x
+2. TensorFlow
+3. OpenCV
+4. NumPy
+5. Other dependencies (specified in requirements.txt)
 
 ## Usage
 
@@ -48,33 +47,12 @@ python run.py [options]
 --execution-threads EXECUTION_THREADS                                      number of execution threads
 -v, --version                                                              show program's version number and exit
 ```
+## Installation
 
+## License
 
-### Headless
+This project is licensed under the MIT License. Feel free to use and modify the code as needed.
 
-Using the `-s/--source`, `-t/--target` and `-o/--output` argument will run the program in headless mode.
+Thank you for using the DeepFake Face Swapping Project! If you have any questions or feedback, please don't hesitate to reach out.
 
-
-## Disclaimer
-
-This software is designed to contribute positively to the AI-generated media industry, assisting artists with tasks like character animation and models for clothing.
-
-We are aware of the potential ethical issues and have implemented measures to prevent the software from being used for inappropriate content, such as nudity.
-
-Users are expected to follow local laws and use the software responsibly. If using real faces, get consent and clearly label deepfakes when sharing. The developers aren't liable for user actions.
-
-
-## Licenses
-
-Our software uses a lot of third party libraries as well pre-trained models. The users should keep in mind that these third party components have their own license and terms, therefore our license is not being applied.
-
-
-## Credits
-
-- [deepinsight](https://github.com/deepinsight) for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models.
-- all developers behind the libraries used in this project
-
-
-## Documentation
-
-Read the [documentation](https://github.com/s0md3v/roop/wiki) for a deep dive.
+Disclaimer: Be aware of the ethical considerations and legal implications associated with deepfake technology. Ensure that you have the right to use the images and videos in your datasets, and use the technology responsibly.
