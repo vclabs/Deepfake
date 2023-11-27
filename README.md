@@ -48,6 +48,11 @@ python run.py [options]
 -v, --version                                                              show program's version number and exit
 ```
 ## Installation
+<div id="badges">
+  <a href="https://colab.research.google.com/drive/1Ni2ZXRnH02v-eTpabwfMhUk_ExjJc7Dx?usp=sharing">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab Badge"/>
+  </a>
+</div>
 
 ## Sample Output
 ![image](https://github.com/vclabs/Deepfake/assets/141710657/6166d17a-6958-401e-a37b-f069d06cbda5)
