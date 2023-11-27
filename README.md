@@ -1,8 +1,8 @@
-## DeepFake Face Swapping
+# DeepFake Face Swapping
 
 Welcome to the DeepFake Face Swapping Project! This project focuses on implementing a face-swapping algorithm using deep learning techniques. The goal is to seamlessly replace faces in videos with the faces of other individuals, creating realistic and convincing deepfake videos.
 
-# Features
+## Features
 
 1. Face swapping in videos with high realism.
 2. Support for different face datasets.
